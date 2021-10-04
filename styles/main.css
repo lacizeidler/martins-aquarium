@@ -9,25 +9,27 @@
 
 #header {
     text-align: center;
-    color: navy;
-    background-color: aquamarine;
+    color: rgb(6, 46, 51);
+    background-color: cadetblue;
     padding: 20px 0px;
     font-size: 40px;
+    -webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #23430C;
 }
 
 /* body edits  */
 
 #body {
-    display: flex;
     background-color: rgb(235, 253, 255);
 }
 
 .main {
-    width: 80%;
+    display: flex;
 }
 
-img {
-    width: 50%;
+.flex img {
+    width: 40%;
+    margin: 0px 0px 0px 5%;
 }
 
 .flex__section {
@@ -44,6 +46,9 @@ img {
     /* border: dotted black 1px; */
     margin: 10px;
     text-align: left;
+    line-height: 3em;
+    border: cadetblue groove 15px;
+    padding: 0px 2%;
 }
 
 .aside h5 {
@@ -58,42 +63,50 @@ img {
 .details {
     /* border: solid navy 2px; */
     margin: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    width: 80%;
 }
 
 .quotes {
     /* border: solid navy 2px; */
-    margin: 10px;
     text-align: center;
-    width: 80%;
-    padding: 10%;
+    width: 70%;
+    margin: 5% 13%;
+    padding: 3%;
+    border: cadetblue groove 15px;
 }
 
 .quotes h3 {
     font-size: 30px;
+    text-decoration: underline;
 }
 
 .quotes p {
     font-size: 20px;
-    padding: 5%;
+    padding: 3%;
+    line-height: 2em;
 }
 
 .harvesting_locations {
     /* border: solid navy 2px; */
     margin: 10px;
     text-align: center;
-    width: 80%;
-    padding: 10%;
+    width: 70%;
+    margin: 5% 13%;
+    padding: 3%;
+    border: cadetblue groove 15px;
 }
 
 .harvesting_locations h3 {
     font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 2%;
 }
 
 .harvesting_locations p {
     font-size: 20px;
-    padding: 5%;
+    padding: 2%;
 }
 
 footer {
@@ -106,4 +119,5 @@ footer {
 .flex {
     display: flex;
     padding: 5% 0px;
+    border: cadetblue groove 15px;
 }
